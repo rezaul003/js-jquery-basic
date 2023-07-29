@@ -116,27 +116,34 @@ $(document).ready(function(){
 	// show
 	$('#shw').on('click', function(){
 		$('#shd').show();
-	})
+	});
 	// hide
 			$('#hid').on('click', function(){
 		$('#shd').hide();
-	})
+	});
 		$('#tgl').on('click', function(){
 		$('#shd').toggle();
-	})
+	});
 
 
 
 			// fade
 	$('#fdi').on('click', function(){
 		$('#fd').fadeIn();
-	})
+	});
 	// hide
 			$('#fdo').on('click', function(){
 		$('#fd').fadeOut();
-	})
+	});
 		$('#tglfd').on('click', function(){
 		$('#fd').fadeToggle(2000);
-	})
+	});
 
-})  
+}) ; 
+
+// Question/Answer
+$(document).ready(function(){
+	$('.ques').on('click', function(){
+		$('.ans').slideToggle(1000);
+	});
+});
