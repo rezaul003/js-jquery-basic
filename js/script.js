@@ -143,6 +143,7 @@ $(document).ready(function(){
 
 // Question/Answer
 $(document).ready(function(){
+	
 	$('.ques').on('click', function(){
 		$('.ans').slideToggle(1000);
 	});
